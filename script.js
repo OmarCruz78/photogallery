@@ -1,5 +1,5 @@
-/* body onload*/
-/* body onload*/
+/* hoja script*/
+/*Body onload*/ 
 function tabindex(){
     const currentImages = document.querySelectorAll(".carrousel img");
     for (let i = 0; i < currentImages.length; i++){
