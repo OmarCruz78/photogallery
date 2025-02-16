@@ -11,6 +11,9 @@ function upDate(previewPic){
     const imagen = document.getElementById('image');
     imagen.style.backgroundImage = "url('" + previewPic.src + "')";
     imagen.innerHTML = previewPic.alt;
+  header = document.getElementById('header');
+  header.style.display = "none";
+  
 }
 
 function upDate2(previewPic){ // Corrected and improved
@@ -34,4 +37,12 @@ function unDo(){
     const imagen = document.getElementById('image');
     imagen.innerHTML = 'Hover over an image below to display here.';
     imagen.style.backgroundImage = "url('https://i.ibb.co/RKYDgT2/collage-naupa-iglesia.jpg')";
+}
+
+function unDo2(){
+  header = document.getElementById('header');
+  imagen = document.getElementById('image');
+ imagen.style.display = "none";
+  
+  
 }
