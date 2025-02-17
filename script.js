@@ -1,5 +1,6 @@
 /* hoja script*/
 /*Body onload*/ 
+/* body onload*/
 function tabindex(){
     const currentImages = document.querySelectorAll(".carrousel img");
     for (let i = 0; i < currentImages.length; i++){
@@ -11,8 +12,15 @@ function upDate(previewPic){
     const imagen = document.getElementById('image');
     imagen.style.backgroundImage = "url('" + previewPic.src + "')";
     imagen.innerHTML = previewPic.alt;
-  header = document.getElementById('header');
-  header.style.display = "none";
+    imagen.style.display = "block";
+    imagen.style.zIndex = "999";
+    imagen.style.position = "absolute";
+    imagen.style.top = "0";
+    imagen.style.left = "0";
+    imagen.style.right = "0";
+    imagen.style.bottom = "0";
+    imagen.style.margin = "auto";
+
   
 }
 
@@ -43,6 +51,6 @@ function unDo2(){
   header = document.getElementById('header');
   imagen = document.getElementById('image');
  imagen.style.display = "none";
-  
+  header.style.display = "flex";
   
 }
