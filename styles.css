@@ -14,8 +14,6 @@
 
 
 
-
-
 /*Name this external file gallery.css*/
 body{
 		margin: 0;
@@ -67,7 +65,7 @@ margin: 2px;
 position: sticky;
 top: 0;
 display: flex;
-z-index:1000;
+z-index:555;
 height:auto;
 }
 
@@ -150,11 +148,10 @@ position: absolute;
   right:0;
   bottom: 0;
   left:0;
-  margin: 0;
   
 background-color: var(--brown);
 display: flex;
-margin: 9em auto; 
+margin: auto; 
 width: 80%;
 border: 2px solid var(--black);
 flex-wrap: nowrap; 
