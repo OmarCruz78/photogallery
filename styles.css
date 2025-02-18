@@ -60,7 +60,7 @@ color:var(--black);
 /* end skip */
 
 header{
-background-color: var(--blue);
+background-color: var(--grey);
 color: var(--black);
 margin: 2px;
 position: sticky;
